@@ -2,10 +2,10 @@
   "name": "FLASH-MD",
   "description": "An easy and simple WhatsApp bot developed by France King",
   "keywords": ["bot", "node", "baileys", "whatsapp"],
-  "logo": "https://files.catbox.moe/nqgz89.jpg",
+  "logo": "https://telegra.ph/file/dfccbf12397757c321ac4.jpg",
   "repository": "https://github.com/franceking1/Flash-Md",
-  "success_url": "/",
-  "stack": "container",
+  "succes_url": "/",
+  "stack": "heroku-24",
 
   "env": {
     "PREFIX": {
@@ -65,6 +65,7 @@
     },
     "HEROKU_API_KEY": {
       "description": "Insert your Heroku API key here. This allows you to manage environment variables and other settings more effectively.",
+      "value": "", 
       "required": false
     },
     "HEROKU_APP_NAME": {
